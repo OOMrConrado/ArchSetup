@@ -2,7 +2,7 @@
 
 A custom system monitor written in C for Arch Linux that displays detailed system information with a colorful terminal interface.
 
-## 🚀 Features
+##  Features
 
 - **CPU Information**: Model, cores, per-core usage and temperature
 - **RAM and SWAP Memory**: Total usage, available space and percentages with progress bars
@@ -13,7 +13,7 @@ A custom system monitor written in C for Arch Linux that displays detailed syste
 - **Watch Mode**: Continuous updates every 2 seconds
 - **Modular Options**: Show only the information you need
 
-## 🎯 Usage
+##  Usage
 
 ### Installation
 
@@ -50,7 +50,7 @@ ArchSetup --all             # Everything (default)
 ArchSetup --help
 ```
 
-## 🛠️ Manual Compilation
+##  Manual Compilation
 
 ```bash
 # Compile
@@ -67,14 +67,14 @@ make run
 make watch
 ```
 
-## 📋 Requirements
+##  Requirements
 
 - **System**: Arch Linux (may work on other distributions)
 - **Compiler**: GCC with C99 support
 - **Dependencies**: Only standard C libraries
 - **Permissions**: Read access to `/proc/` and `/sys/`
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ArchSetup/
@@ -89,7 +89,7 @@ ArchSetup/
 └── README.md          # This documentation
 ```
 
-## 🎨 Color Codes
+##  Color Codes
 
 - **Green**: Normal usage (< 60%)
 - **Yellow**: Moderate usage (60-80%)
@@ -100,7 +100,7 @@ ArchSetup/
 - **Yellow**: Disk information
 - **Red**: Top processes
 
-## 📊 Information Sources
+##  Information Sources
 
 - `/proc/cpuinfo` - Processor information
 - `/proc/stat` - CPU usage statistics
@@ -110,7 +110,7 @@ ArchSetup/
 - `/proc/[pid]/` - Process information
 - `statvfs()` - Filesystem information
 
-## 🔧 Customization
+##  Customization
 
 The code is designed to be easily customizable:
 
@@ -119,7 +119,7 @@ The code is designed to be easily customizable:
 - **Format**: Adjust display functions in `sysmon.c`
 - **Additional Metrics**: Add new data sources
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **Error: Command not found**
 ```bash
@@ -139,11 +139,11 @@ ls -la /proc/cpuinfo /proc/meminfo
 find /sys/class/thermal/ -name "temp*_input" 2>/dev/null
 ```
 
-## 📄 License
+##  License
 
 Open source project. Free to use, modify and distribute.
 
-## 🤝 Contributions
+##  Contributions
 
 Contributions are welcome! You can:
 
@@ -153,7 +153,7 @@ Contributions are welcome! You can:
 - Optimize code
 - Add support for more distributions
 
-## 📞 Support
+##  Support
 
 For issues or questions about the ArchSetup system monitor, you can:
 
@@ -163,4 +163,4 @@ For issues or questions about the ArchSetup system monitor, you can:
 
 ---
 
-**Enjoy monitoring your Arch Linux system with style! 🎉**
+**Enjoy monitoring your Arch Linux system with style!**
