@@ -1,0 +1,55 @@
+# Object files
+*.o
+*.obj
+
+# Executables
+sysmon
+ArchSetup
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+*.debug
+
+# Temporary files
+*~
+*.tmp
+*.temp
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build directories
+build/
+dist/
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# Backup files
+*.bak
+*.backup
+
+# Log files
+*.log
+
+# Core dumps
+core
+
+# Claude specific files
+.claude/
