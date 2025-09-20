@@ -152,6 +152,14 @@ Contributions are welcome! You can:
 - Improve documentation
 - Optimize code
 - Add support for more distributions
+ 
+##  Screenshots
+Interface:
+<img width="921" height="975" alt="Screenshot From 2025-09-20 16-49-21" src="https://github.com/user-attachments/assets/f6dae3cf-ba3f-4bbd-9646-4c5608a74703" />
+
+Help Interface: 
+<img width="779" height="408" alt="Screenshot From 2025-09-20 16-50-11" src="https://github.com/user-attachments/assets/f94942ae-021d-458c-80fa-851ec5497137" />
+
 
 ##  Support
 
